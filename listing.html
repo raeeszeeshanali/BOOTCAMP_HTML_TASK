@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="custom/style.css" />
+    <link rel="stylesheet" href="custom/all.css">
+    <title>resturant</title>
+  </head>
+  <body>
+    <!-- Header Area -->
+   <header>
+     <div class="container pt-3">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"> <img src="img/Untitled-1.png" alt="img1" class="img-fluid">OSAHANEAT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Offers <span class="badge badge-danger">New</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Resturant
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li style="margin-top: -5px;" class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="img/Capture.PNG" alt="img1" class="img-fluid">  My account
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               cart<span class="badge badge-success">5</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+     </div>
+   </header>
+<!-- Offers near by you -->
+<section class="offer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Offers Near you</h3>
+        <small>Best deals at your favourite resturant</small>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- offers -->
+<section class="offer-res">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Offers <small>299 resturant</small> </h3>
+      </div>
+      <div class="col-md-6">
+        <div class="dropdown show float-right">
+          <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sort by: Distance
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      
+          
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="boxtwo">
+        <p>Filter by</p>
+        <hr>
+        <p class="loc">Location <i class="fa fa-arrow-down float-right" aria-hidden="true"></i> </p>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Ludihana Junction <small>120</small> 
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Model Town <small>120</small> 
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Ludihana Junction <small>120</small> 
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Ludihana Junction <small>120</small> 
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Ludihana Junction <small>120</small> 
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Ludihana Junction <small>120</small> 
+          </label>
+        </div><br>
+        <a class="all " href="">see all</a>
+        <hr>
+        <div id="accordion">
+          <div class="">
+            <div class="" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <p class="loc">All Cousine <i style="padding-left: 122px;" class="fa fa-arrow-down  float-right" aria-hidden="true"></i> </p>
+                  <!-- <input class="form-control" type="text" placeholder="Start typing to search"> -->
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    American <small>150</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Indian <small>110</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    South Africa <small>150</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Chinese <small>120</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Desert <small>100</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Chicken <small>130</small> 
+                  </label>
+                </div><br>
+                <a class="all " href="">see all</a>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div id="accordiontwo">
+          <div class="">
+            <div class="" id="headingthree">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                  <p class="loc">Feature <i style="padding-left: 122px;" class="fa fa-arrow-down  float-right" aria-hidden="true"></i> </p>
+                  <input class="form-control" type="text" placeholder="Start typing to search">
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapsetwo" class="collapse show" aria-labelledby="headingtwo" data-parent="#accordiontwo">
+              <div class="card-body">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck12">
+                  <label class="form-check-label" for="defaultCheck12">
+                    American <small>150</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Indian <small>110</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    South Africa <small>150</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Chinese <small>120</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Desert <small>100</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Chicken <small>130</small> 
+                  </label>
+                </div><br>
+                <a class="all " href="">see all</a>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div id="accordionthree">
+          <div class="">
+            <div class="" id="headingfour">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                  <p class="loc">Delivery Time <i style="padding-left: 100px;" class="fa fa-arrow-down  float-right" aria-hidden="true"></i> </p>
+                  <!-- <input class="form-control" type="text" placeholder="Start typing to search"> -->
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapsethree" class="collapse show" aria-labelledby="headingthree" data-parent="#accordionthree">
+              <div class="card-body">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck123">
+                  <label class="form-check-label" for="defaultCheck123">
+                    150<small> min</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    110 <small>min</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    150 <small>min</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                   50 <small>min</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                   30 <small>min</small> 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                   40 <small>min</small> 
+                  </label>
+                </div><br>
+                <a class="all " href="">see all</a>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        </div>
+        <div class="boxtwo">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Gold Partner
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Ordr Food online
+            </label>
+          </div>
+          <hr>
+          <small>use code OSHANASO to get 50% OFF (up to 30$) on first</small>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+          
+           
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
+          <div class="col-md-2">
+            <p>  <img src="img/cap5.PNG" alt="img2" class="img-fluid">  <span>Chinese</span><br> 120</p>
+         </div>
+          <div  class="col-md-2 ">
+            <p>  <img src="img/cap5.PNG" alt="img2" class="img-fluid">  <span>Chinese</span><br> 120</p>
+          </div>
+          <div  class="col-md-2">
+            <p>  <img src="img/cap5.PNG" alt="img2" class="img-fluid">  <span>Chinese</span><br> 120</p>
+          </div>
+          <div class="col-md-2 ">
+            <p>  <img src="img/cap5.PNG" alt="img2" class="img-fluid">  <span>Chinese</span><br> 120</p>
+          </div> 
+          <div class="col-md-2 ">
+            <p>  <img src="img/cap5.PNG" alt="img2" class="img-fluid">  <span>Chinese</span><br> 120</p>
+          </div> 
+          <div class="col-md-2 ">
+            <p>  <img src="img/cap5.PNG" alt="img2" class="img-fluid">  <span>Chinese</span><br> 120</p>
+          </div> 
+            
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="img/pr2.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Lounge</h5>
+                  <p style="font-size: 10px;" class="card-text"><span>North Indian</span> <span>American . pure veg</span> </p>
+                  <p style="font-size: 10px;" class="card-text"><span> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     20-25 min</span> <span class="ml-5">$250 for two</span> </p>
+                  <p style="font-size: 10px;" class="card-text"> <span class="badge badge-success">offer </span>  <span> of l use coupen OSHANAN50</span> </p>
+        
+                </div>
+              </div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
+    <!-- Library Area -->
+    <div id="fb-root"></div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
